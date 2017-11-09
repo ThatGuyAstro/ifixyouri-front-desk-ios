@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662368261FB4E2D300D0497B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662368251FB4E2D300D0497B /* AppDelegate.swift */; };
+		662368281FB4E2D300D0497B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662368271FB4E2D300D0497B /* ViewController.swift */; };
+		6623682B1FB4E2D300D0497B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662368291FB4E2D300D0497B /* Main.storyboard */; };
+		6623682D1FB4E2D300D0497B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6623682C1FB4E2D300D0497B /* Assets.xcassets */; };
+		662368301FB4E2D300D0497B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6623682E1FB4E2D300D0497B /* LaunchScreen.storyboard */; };
+		6623683B1FB4E2D300D0497B /* iFixYouri_Front_DeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623683A1FB4E2D300D0497B /* iFixYouri_Front_DeskTests.swift */; };
+		662368461FB4E2D300D0497B /* iFixYouri_Front_DeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662368451FB4E2D300D0497B /* iFixYouri_Front_DeskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662368371FB4E2D300D0497B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6623681A1FB4E2D300D0497B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662368211FB4E2D300D0497B;
+			remoteInfo = "iFixYouri Front Desk";
+		};
+		662368421FB4E2D300D0497B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6623681A1FB4E2D300D0497B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662368211FB4E2D300D0497B;
+			remoteInfo = "iFixYouri Front Desk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		662368221FB4E2D300D0497B /* iFixYouri Front Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iFixYouri Front Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662368251FB4E2D300D0497B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		662368271FB4E2D300D0497B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6623682A1FB4E2D300D0497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6623682C1FB4E2D300D0497B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6623682F1FB4E2D300D0497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662368311FB4E2D300D0497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662368361FB4E2D300D0497B /* iFixYouri Front DeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFixYouri Front DeskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6623683A1FB4E2D300D0497B /* iFixYouri_Front_DeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFixYouri_Front_DeskTests.swift; sourceTree = "<group>"; };
+		6623683C1FB4E2D300D0497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662368411FB4E2D300D0497B /* iFixYouri Front DeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFixYouri Front DeskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662368451FB4E2D300D0497B /* iFixYouri_Front_DeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFixYouri_Front_DeskUITests.swift; sourceTree = "<group>"; };
+		662368471FB4E2D300D0497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6623681F1FB4E2D300D0497B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662368331FB4E2D300D0497B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623683E1FB4E2D300D0497B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662368191FB4E2D300D0497B = {
+			isa = PBXGroup;
+			children = (
+				662368241FB4E2D300D0497B /* iFixYouri Front Desk */,
+				662368391FB4E2D300D0497B /* iFixYouri Front DeskTests */,
+				662368441FB4E2D300D0497B /* iFixYouri Front DeskUITests */,
+				662368231FB4E2D300D0497B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662368231FB4E2D300D0497B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662368221FB4E2D300D0497B /* iFixYouri Front Desk.app */,
+				662368361FB4E2D300D0497B /* iFixYouri Front DeskTests.xctest */,
+				662368411FB4E2D300D0497B /* iFixYouri Front DeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662368241FB4E2D300D0497B /* iFixYouri Front Desk */ = {
+			isa = PBXGroup;
+			children = (
+				662368251FB4E2D300D0497B /* AppDelegate.swift */,
+				662368271FB4E2D300D0497B /* ViewController.swift */,
+				662368291FB4E2D300D0497B /* Main.storyboard */,
+				6623682C1FB4E2D300D0497B /* Assets.xcassets */,
+				6623682E1FB4E2D300D0497B /* LaunchScreen.storyboard */,
+				662368311FB4E2D300D0497B /* Info.plist */,
+			);
+			path = "iFixYouri Front Desk";
+			sourceTree = "<group>";
+		};
+		662368391FB4E2D300D0497B /* iFixYouri Front DeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				6623683A1FB4E2D300D0497B /* iFixYouri_Front_DeskTests.swift */,
+				6623683C1FB4E2D300D0497B /* Info.plist */,
+			);
+			path = "iFixYouri Front DeskTests";
+			sourceTree = "<group>";
+		};
+		662368441FB4E2D300D0497B /* iFixYouri Front DeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				662368451FB4E2D300D0497B /* iFixYouri_Front_DeskUITests.swift */,
+				662368471FB4E2D300D0497B /* Info.plist */,
+			);
+			path = "iFixYouri Front DeskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662368211FB4E2D300D0497B /* iFixYouri Front Desk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6623684A1FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front Desk" */;
+			buildPhases = (
+				6623681E1FB4E2D300D0497B /* Sources */,
+				6623681F1FB4E2D300D0497B /* Frameworks */,
+				662368201FB4E2D300D0497B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iFixYouri Front Desk";
+			productName = "iFixYouri Front Desk";
+			productReference = 662368221FB4E2D300D0497B /* iFixYouri Front Desk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662368351FB4E2D300D0497B /* iFixYouri Front DeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6623684D1FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front DeskTests" */;
+			buildPhases = (
+				662368321FB4E2D300D0497B /* Sources */,
+				662368331FB4E2D300D0497B /* Frameworks */,
+				662368341FB4E2D300D0497B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662368381FB4E2D300D0497B /* PBXTargetDependency */,
+			);
+			name = "iFixYouri Front DeskTests";
+			productName = "iFixYouri Front DeskTests";
+			productReference = 662368361FB4E2D300D0497B /* iFixYouri Front DeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		662368401FB4E2D300D0497B /* iFixYouri Front DeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662368501FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front DeskUITests" */;
+			buildPhases = (
+				6623683D1FB4E2D300D0497B /* Sources */,
+				6623683E1FB4E2D300D0497B /* Frameworks */,
+				6623683F1FB4E2D300D0497B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662368431FB4E2D300D0497B /* PBXTargetDependency */,
+			);
+			name = "iFixYouri Front DeskUITests";
+			productName = "iFixYouri Front DeskUITests";
+			productReference = 662368411FB4E2D300D0497B /* iFixYouri Front DeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6623681A1FB4E2D300D0497B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sam Elder";
+				TargetAttributes = {
+					662368211FB4E2D300D0497B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M788HE688R;
+						ProvisioningStyle = Automatic;
+					};
+					662368351FB4E2D300D0497B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M788HE688R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 662368211FB4E2D300D0497B;
+					};
+					662368401FB4E2D300D0497B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M788HE688R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 662368211FB4E2D300D0497B;
+					};
+				};
+			};
+			buildConfigurationList = 6623681D1FB4E2D300D0497B /* Build configuration list for PBXProject "iFixYouri Front Desk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662368191FB4E2D300D0497B;
+			productRefGroup = 662368231FB4E2D300D0497B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662368211FB4E2D300D0497B /* iFixYouri Front Desk */,
+				662368351FB4E2D300D0497B /* iFixYouri Front DeskTests */,
+				662368401FB4E2D300D0497B /* iFixYouri Front DeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662368201FB4E2D300D0497B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662368301FB4E2D300D0497B /* LaunchScreen.storyboard in Resources */,
+				6623682D1FB4E2D300D0497B /* Assets.xcassets in Resources */,
+				6623682B1FB4E2D300D0497B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662368341FB4E2D300D0497B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623683F1FB4E2D300D0497B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6623681E1FB4E2D300D0497B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662368281FB4E2D300D0497B /* ViewController.swift in Sources */,
+				662368261FB4E2D300D0497B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662368321FB4E2D300D0497B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623683B1FB4E2D300D0497B /* iFixYouri_Front_DeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623683D1FB4E2D300D0497B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662368461FB4E2D300D0497B /* iFixYouri_Front_DeskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662368381FB4E2D300D0497B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662368211FB4E2D300D0497B /* iFixYouri Front Desk */;
+			targetProxy = 662368371FB4E2D300D0497B /* PBXContainerItemProxy */;
+		};
+		662368431FB4E2D300D0497B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662368211FB4E2D300D0497B /* iFixYouri Front Desk */;
+			targetProxy = 662368421FB4E2D300D0497B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662368291FB4E2D300D0497B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623682A1FB4E2D300D0497B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6623682E1FB4E2D300D0497B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623682F1FB4E2D300D0497B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662368481FB4E2D300D0497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		662368491FB4E2D300D0497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6623684B1FB4E2D300D0497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front Desk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-Desk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6623684C1FB4E2D300D0497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front Desk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-Desk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6623684E1FB4E2D300D0497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front DeskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-DeskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFixYouri Front Desk.app/iFixYouri Front Desk";
+			};
+			name = Debug;
+		};
+		6623684F1FB4E2D300D0497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front DeskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-DeskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFixYouri Front Desk.app/iFixYouri Front Desk";
+			};
+			name = Release;
+		};
+		662368511FB4E2D300D0497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front DeskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-DeskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iFixYouri Front Desk";
+			};
+			name = Debug;
+		};
+		662368521FB4E2D300D0497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M788HE688R;
+				INFOPLIST_FILE = "iFixYouri Front DeskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "scio.iFixYouri-Front-DeskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iFixYouri Front Desk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6623681D1FB4E2D300D0497B /* Build configuration list for PBXProject "iFixYouri Front Desk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662368481FB4E2D300D0497B /* Debug */,
+				662368491FB4E2D300D0497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6623684A1FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front Desk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6623684B1FB4E2D300D0497B /* Debug */,
+				6623684C1FB4E2D300D0497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6623684D1FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front DeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6623684E1FB4E2D300D0497B /* Debug */,
+				6623684F1FB4E2D300D0497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		662368501FB4E2D300D0497B /* Build configuration list for PBXNativeTarget "iFixYouri Front DeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662368511FB4E2D300D0497B /* Debug */,
+				662368521FB4E2D300D0497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6623681A1FB4E2D300D0497B /* Project object */;
+}
