@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.5.1)
+  - EZSwiftExtensions (1.11)
+  - PMSuperButton (2.0.4)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - EZSwiftExtensions
+  - PMSuperButton
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  EZSwiftExtensions: 84000042202d9fd574f626cda3064143f27fa767
+  PMSuperButton: 148f52039b68d13b9335a3e8af81f37aec55cfa8
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: c148432b2166d48856077f2bffe624abd605b0d1
+
+COCOAPODS: 1.2.0

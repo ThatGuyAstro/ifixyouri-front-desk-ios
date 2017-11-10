@@ -1,0 +1,6 @@
+framework module Pods_iFixYouri_Front_DeskTests {
+  umbrella header "Pods-iFixYouri Front DeskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

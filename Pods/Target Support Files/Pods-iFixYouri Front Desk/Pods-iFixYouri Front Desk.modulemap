@@ -1,0 +1,6 @@
+framework module Pods_iFixYouri_Front_Desk {
+  umbrella header "Pods-iFixYouri Front Desk-umbrella.h"
+
+  export *
+  module * { export * }
+}
