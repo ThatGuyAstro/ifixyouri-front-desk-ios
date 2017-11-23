@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1F734486026326310EEFEF244AB9A75C43BFA23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B1F734486026326310EEFEF244AB9A75C43BFA23" : 9223372036854775807,
+    "07B8CDA580D8B10FA0B5C6333FF9307D60A8DDF4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDE8C0E2-5F90-4A26-BB1A-39AA4A0A76C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B1F734486026326310EEFEF244AB9A75C43BFA23" : "iFixYouri%20Front%20Desk\/",
+    "07B8CDA580D8B10FA0B5C6333FF9307D60A8DDF4" : "iFixYouri%20Check%20In\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iFixYouri Front Desk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iFixYouri Front Desk.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ThatGuyAstro\/ifixyouri-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07B8CDA580D8B10FA0B5C6333FF9307D60A8DDF4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ThatGuyAstro\/ifixyouri-front-desk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1F734486026326310EEFEF244AB9A75C43BFA23"
+    }
+  ]
+}

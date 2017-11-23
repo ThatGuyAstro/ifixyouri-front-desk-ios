@@ -8,17 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var options = ["Check in", "View device status", "Make a payment"]
 
-    @IBOutlet weak var collectionViewLanding: UICollectionView!
+    @IBOutlet weak var tableViewLanding: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
-        collectionViewLanding.delegate = self
-        collectionViewLanding.dataSource = self
+        tableViewLanding.delegate = self
+        tableViewLanding.dataSource = self
         
         initUi()
         
@@ -39,10 +40,45 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         
-        if let cell = collectionViewLanding.dequeueReusableCell(withReuseIdentifier: "cellOption", for: indexPath) as? LandingCollectionViewCell {
+        let sender = options[indexPath.row]
+        
+        print(sender)
+        
+        //Change to switch later
+        if(sender == "Check in") {
+            
+            
+            performSegue(withIdentifier: "idCheckIn", sender: sender)
+            
+            
+        }
+        
+        if(sender == "View device status") {
+            
+            performSegue(withIdentifier: "idCheckStatus", sender: sender)
+            
+            
+        }
+        
+        if(sender == "Make a payment") {
+            
+            
+            //performSegue(withIdentifier: "idCheckIn", sender: sender)
+            
+            performSegue(withIdentifier: "idMakePayment", sender: sender)
+
+            
+        }
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
+        if let cell = tableViewLanding.dequeueReusableCell(withIdentifier: "cellOption", for: indexPath) as? OptionCell {
             
             let myCell = options[indexPath.row]
             
@@ -56,35 +92,56 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
         } else {
             
-            return UICollectionViewCell()
+            print("Error cell")
+            return UITableViewCell()
             
         }
         
     }
     
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        var CellCount = options.count
-        var CellWidth = 228
-        var CellHeight = 228
+//        if segue.identifier == "idCheckIn" {
+//            
+//            if let destination = segue.destination as? CheckInViewController {
+//                
+//                //destination.selectedItem = Products[tableView.indexPathForSelectedRow!.row]
+//                
+//            }
+//        }
         
-        let totalCellWidth = CellWidth * CellCount
-        let totalSpacingWidth = 20 * (CellCount - 1)
-        
-        let leftInset = (collectionViewLanding.frame.width - CGFloat(totalCellWidth + totalSpacingWidth)) / 2
-        let rightInset = leftInset
-        
-        return UIEdgeInsetsMake(0, leftInset, 0, rightInset)
+        if segue.identifier == "idDeviceStatus" {
+            
+            if let destination = segue.destination as? DeviceStatusViewController {
+                
+                //destination.selectedItem = Products[tableView.indexPathForSelectedRow!.row]
+                
+            }
+        }
     }
     
-    
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return options.count
         
     }
-
+    
+    
+    
+   
 
 }
 
+
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
